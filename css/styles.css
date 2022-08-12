@@ -1,0 +1,189 @@
+:root{
+  --primary-text-color: #000000;
+  --accent-color: #2196F3;
+  --primary-white-color: #FFFFFF;
+  --text-silver-color: #757575;
+  --primary-bg-color: #2F303A;
+  --bg-color-button: #F5F4FA;
+}
+body{
+  font-family: Roboto, sans-serif;
+  color: var(--text-silver-color);
+  letter-spacing: 0.03em;
+}
+h1,h2,h3,h4{
+  color: var(--primary-text-color);
+}
+li{
+  list-style: none;
+}
+a {
+  color: var(--text-silver-color);
+  text-decoration: none;
+}
+/* Header */
+.logo{
+  color: var(--primary-text-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.accentlogo{
+  color: var(--accent-color);
+}
+/* .logo:hover,
+.accentlogo:hover{
+  color: var(--accent-color);
+} */
+.blocknav a {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.blocknav
+a:hover,
+.blocknav
+a:focus {
+  color: var(--accent-color)
+}
+.contacts{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color)
+}
+
+/* Firts section title */
+.mainsection{
+  background-color: var(--primary-bg-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.mainsection button{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.maintitle{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--primary-white-color);
+}
+.button{
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  cursor: pointer;
+}
+/* section priority */
+
+.priority h2{
+  display: none;
+}
+.priority h3{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.priority p{
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* what do we do */
+.section-employment h2{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* section Team */
+.section-team h2{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.namestuff{
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.employment{
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* footer */
+.footer{
+  background: var(--primary-bg-color);
+}
+.logofooter{
+  color: var(--primary-white-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.address,
+.emailnumber{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.address{
+  color: var(--primary-white-color);
+}
+
+.address:hover,
+.address:focus,
+.emailnumber:hover,
+.emailnumber:focus{
+  color: var(--accent-color);
+}
+
+/* Page Portfolio */
+.maintitleportfolio{
+  display: none;
+}
+
+.filterbutton button{
+  font-family: inherit;
+  color: var(--primary-text-color);
+  background: var(--bg-color-button);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  border: #FFFFFF;
+  }
+.filterbutton button:hover,
+.filterbutton button:focus{
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+}
+/* exampales */
+
+.ulexampales h2,
+.ulexampales p{
+  font-size: 14px;
+  line-height: 1.71;
+}
+
