@@ -33,7 +33,7 @@ a {
   padding-right: 15px;
 }
 .section{
-  padding-bottom: 93px;
+  padding: 93px 0px;
 }
 
 /* Header */
@@ -105,6 +105,9 @@ a {
   color: var(--accent-color);
 }
 /* Firts section title */
+.hero{
+  padding: 0px 0px;
+}
 .mainsection{
   background-color: var(--primary-bg-color);
   text-align: center;
@@ -168,6 +171,9 @@ a {
 }
 
 /* what do we do */
+.section-employment{
+  padding-top: 0px;
+}
 .section-employment h2{
   font-weight: 700;
   font-size: 36px;
@@ -186,9 +192,6 @@ a {
 }
 
 /* section Team */
-.teambacground{
-  padding-top: 93px;
-}
 .teamul{
   display: flex;
 }
