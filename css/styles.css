@@ -29,9 +29,11 @@ a {
 .container{
   margin: 0 auto;
   max-width: 1200px;
-  padding-bottom: 93px;
   padding-left: 15px;
   padding-right: 15px;
+}
+.section{
+  padding-bottom: 93px;
 }
 
 /* Header */
@@ -186,7 +188,6 @@ a {
 /* section Team */
 .teambacground{
   padding-top: 93px;
-  background-color: var(--bg-color-button);
 }
 .teamul{
   display: flex;
@@ -196,6 +197,9 @@ a {
 }
 .teamul .item:last-child{
   margin-right: 0px;
+}
+.section-team{
+  background-color: var(--bg-color-button);
 }
 .section-team h2{
   font-weight: 700;
